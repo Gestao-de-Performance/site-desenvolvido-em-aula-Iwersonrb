@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+}
+nav {
+    padding: 1%;
+}
+
+/* Classe genérica Display Flex */
+.displayFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Gap */
+.gapCabecalho {
+    gap: 20%;
+}
+
+/* Gap entre os botões do cabeçalho */
+.gapCabecalhoBotoes {
+    gap: 15%;
+}
+
+/* Versão Tablet */
+@media screen and (max-width: 1024px) {
+    /* Adicione estilos específicos aqui */
+}
+
+.marginResponsiva {
+    margin: 5% 0;
+}
+
+.tamanhoBotaoCabecalho {
+    width: 70px;
+    height: auto;
+    text-align: center;
+}
+
+/* Fim Cabeçalho */
+
+.bordaBusca:hover {
+    border: 1px solid #5a13b48a;
+}
+
+.bordaBusca {
+    border: 1px solid #5a13b48a;
+    padding: 5px;
+}
+
+/* Input de busca no Blog */
+.inputBusca {
+    border: none;
+    outline: none;
+    color: #5913b441;
+}
+.inputBusca::placeholder {
+    color: #5913b441;
+}
+/* Fim input de busca no blog */
+
+.removeDecoration {
+    text-decoration: none;
+}
+
+/* Removendo a quebra de linha */
+.quebraDelinha {
+    white-space: nowrap;
+}
+.displayFlexAmbientV {
+    display: flex;
+    align-items: center;
+}
