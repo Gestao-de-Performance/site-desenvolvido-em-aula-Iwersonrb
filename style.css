@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
@@ -19,8 +18,11 @@
     padding: 0;
 }
 
+
 body{
     font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    zoom: 0.5; /* Aplicado zoom de 50% */
 }
 
 h1, h2, p{
@@ -58,6 +60,7 @@ nav{
     align-items: center;
 }
 
+
 /*Gap utilizado no cabeçalho*/
 .gapCabecalho{
     gap: 20%;
@@ -89,6 +92,7 @@ nav{
 .inputBusca::placeholder{
     color: var(--cor-busca);
 }
+
 /*Fim input de busca no Blog*/
 
 /*Imagem da Lupa no input de busca*/
@@ -108,11 +112,15 @@ nav{
     white-space: nowrap;
 }
 
-/*Display Flex do ambiente Virtual*/
-.displayFlexAmbienteV{
-    display:flex;
-    align-items:center;
-    gap: 5px;
+/* Display Flex do ambiente Virtual */
+.displayFlexAmbienteV {
+    display: flex;
+    align-items: center;
+    gap: 5px;    
+    color: #5a13b4; 
+    font-weight: bold; 
+    padding: 10px; 
+    
 }
 
 /*Versão Tablet*/
@@ -197,6 +205,8 @@ h1{
 /*Início Cursos*/
 .backgroundContainerCursos{
     background-color: var(--cor-background-cursos);
+    max-width: 85%;
+    margin: 0 auto;
 }
 
 .containerExternoCursos{
@@ -261,7 +271,7 @@ h1{
 .posicionamentoBotaoInscrever{
     position: relative;
     margin: 0 17%;
-    top: -175px;
+    top: -210px;
 }
 
 .botaoInscreverSe{
@@ -269,7 +279,7 @@ h1{
     display: block;
     background-color: var(--cor-background-botao);
     text-align: center;
-    padding: 2%;
+    padding: 1.5%;
     font-size: 2rem;
 }
 /*Fim Botão Inscrever-se*/
